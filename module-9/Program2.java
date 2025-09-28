@@ -28,7 +28,7 @@ public class Program2 {
 
             Random rand = new Random();
             for (int i = 0; i < 10; i++) {
-                int n = rand.nextInt(100); // generate a random number 0–99
+                int n = rand.nextInt(100); // generate a random number 0-99
                 bw.write(Integer.toString(n));
                 if (i < 9) bw.write(" "); // separate numbers with space
             }
